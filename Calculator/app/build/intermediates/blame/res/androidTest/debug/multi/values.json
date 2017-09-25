@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Chandler\\.android\\build-cache\\7e69f16e901eab82a8083999265f254306e35413\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

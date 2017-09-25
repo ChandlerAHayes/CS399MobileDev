@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]
