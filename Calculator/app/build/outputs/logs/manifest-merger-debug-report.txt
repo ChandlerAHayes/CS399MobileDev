@@ -1,87 +1,73 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
 application
-ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chandler\.android\build-cache\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Chandler\.android\build-cache\66ed65ef914f8e6da3f49edcba7ad106d1c2f737\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Chandler\.android\build-cache\6bd7d58a23f632875e221f94e42a28f3da1fc609\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Chandler\.android\build-cache\cfe1dad5128b787dac01a5d5d129b0aa81565943\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Chandler\.android\build-cache\1594ca324bb79649414c2ca11e4e129bd974be17\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Chandler\.android\build-cache\5373d30d984c80b244570985fb334b27a110d166\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Chandler\.android\build-cache\96909e720dcf541460cffabc44606a85a8b760b9\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chandler\.android\build-cache\201c857c922dea7c0b3d0221cb33d40e703b1752\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Chandler\.android\build-cache\f8c75a1f788ac1ad3d463217f07c3673b45582e5\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Chandler\.android\build-cache\f4c4a48c7dc6b1b9187c5672e966866d1808c36a\output\AndroidManifest.xml:9:5-20
+ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jessy_arroyo/.android/build-cache/b895fc24d57a8533f4bed18afa38a25ddfb004eb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jessy_arroyo/.android/build-cache/b3c3e2c4c1ba1d09434bd1959f4624da7a1337a2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jessy_arroyo/.android/build-cache/26a3bf4f57422226ce2345dce185ec4c603e9677/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jessy_arroyo/.android/build-cache/bb94c466b99691dde254a6986e9e0ad7c6e1afd6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jessy_arroyo/.android/build-cache/5113303c749c614a122657dde109a13301afcf12/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/jessy_arroyo/.android/build-cache/d3552dc1528568b6b25ae28117ec7a94022374b8/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/jessy_arroyo/.android/build-cache/ed57e6b48d0129960c1636a0ae5cb6cbd52a6c6b/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jessy_arroyo/.android/build-cache/5f652eeaa1c93dc9dfa3774de283a44f0825f1af/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jessy_arroyo/.android/build-cache/896a954fd3ad571b8adf197b912005207fc23464/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:9:9-54
 	android:allowBackup
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:11:9-40
-activity#educs399.nau.calculator.MainActivity
-ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:12:9-18:20
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:11:9-40
+activity#cs399.calculator.Calculator
+ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:12:19-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chandler\.android\build-cache\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Chandler\.android\build-cache\66ed65ef914f8e6da3f49edcba7ad106d1c2f737\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Chandler\.android\build-cache\6bd7d58a23f632875e221f94e42a28f3da1fc609\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Chandler\.android\build-cache\cfe1dad5128b787dac01a5d5d129b0aa81565943\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Chandler\.android\build-cache\1594ca324bb79649414c2ca11e4e129bd974be17\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Chandler\.android\build-cache\5373d30d984c80b244570985fb334b27a110d166\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Chandler\.android\build-cache\96909e720dcf541460cffabc44606a85a8b760b9\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chandler\.android\build-cache\201c857c922dea7c0b3d0221cb33d40e703b1752\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Chandler\.android\build-cache\f8c75a1f788ac1ad3d463217f07c3673b45582e5\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Chandler\.android\build-cache\f4c4a48c7dc6b1b9187c5672e966866d1808c36a\output\AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] /Users/jessy_arroyo/.android/build-cache/b895fc24d57a8533f4bed18afa38a25ddfb004eb/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/jessy_arroyo/.android/build-cache/b3c3e2c4c1ba1d09434bd1959f4624da7a1337a2/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/jessy_arroyo/.android/build-cache/26a3bf4f57422226ce2345dce185ec4c603e9677/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/jessy_arroyo/.android/build-cache/bb94c466b99691dde254a6986e9e0ad7c6e1afd6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/jessy_arroyo/.android/build-cache/5113303c749c614a122657dde109a13301afcf12/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/jessy_arroyo/.android/build-cache/d3552dc1528568b6b25ae28117ec7a94022374b8/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/jessy_arroyo/.android/build-cache/ed57e6b48d0129960c1636a0ae5cb6cbd52a6c6b/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] /Users/jessy_arroyo/.android/build-cache/5f652eeaa1c93dc9dfa3774de283a44f0825f1af/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jessy_arroyo/.android/build-cache/896a954fd3ad571b8adf197b912005207fc23464/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chandler\.android\build-cache\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chandler\.android\build-cache\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Chandler\.android\build-cache\66ed65ef914f8e6da3f49edcba7ad106d1c2f737\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Chandler\.android\build-cache\6bd7d58a23f632875e221f94e42a28f3da1fc609\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Chandler\.android\build-cache\cfe1dad5128b787dac01a5d5d129b0aa81565943\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Chandler\.android\build-cache\1594ca324bb79649414c2ca11e4e129bd974be17\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Chandler\.android\build-cache\5373d30d984c80b244570985fb334b27a110d166\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Chandler\.android\build-cache\96909e720dcf541460cffabc44606a85a8b760b9\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Chandler\.android\build-cache\201c857c922dea7c0b3d0221cb33d40e703b1752\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Chandler\.android\build-cache\f8c75a1f788ac1ad3d463217f07c3673b45582e5\output\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chandler\.android\build-cache\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Chandler\.android\build-cache\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\output\AndroidManifest.xml:26:9-47
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/AndroidManifest.xml

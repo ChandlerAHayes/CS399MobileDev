@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\Chandler\\.android\\build-cache\\fbd6508df7e62c8dfe55efb5b2344b3610e2773f\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "/Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
