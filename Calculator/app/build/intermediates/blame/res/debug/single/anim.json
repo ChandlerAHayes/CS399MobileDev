@@ -1,35 +1,35 @@
 [
     {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -40,43 +40,83 @@
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\anim\\abc_slide_out_bottom.xml"
     }
 ]
