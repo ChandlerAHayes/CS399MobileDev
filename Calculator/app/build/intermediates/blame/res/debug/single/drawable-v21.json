@@ -1,18 +1,34 @@
 [
     {
-        "merged": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/jessy_arroyo/.android/build-cache/c5ac760d71e377428f14ba37fce07c81179d093b/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]
