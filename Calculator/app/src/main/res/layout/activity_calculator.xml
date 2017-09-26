@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@android:color/background_light"
-        android:textSize="30sp" />
+        android:textAlignment="textEnd"
+        android:textSize="45sp" />
 
     <TextView
         android:id="@+id/str_output_display"
@@ -22,7 +23,8 @@
         android:layout_marginTop="0dp"
         android:layout_weight="0.76"
         android:background="@android:color/background_light"
-        android:textSize="30sp" />
+        android:textAlignment="viewEnd"
+        android:textSize="45sp" />
 
     <GridLayout
         android:layout_width="wrap_content"
