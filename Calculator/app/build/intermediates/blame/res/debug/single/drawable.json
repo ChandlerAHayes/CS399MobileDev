@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btt_color.xml",
-        "source": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\src\\main\\res\\drawable\\btt_color.xml"
-    },
-    {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btt_color.xml",
+        "source": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\src\\main\\res\\drawable\\btt_color.xml"
     },
     {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
