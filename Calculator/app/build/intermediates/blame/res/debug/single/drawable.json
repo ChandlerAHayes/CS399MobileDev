@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bttn_border.xml",
+        "source": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\src\\main\\res\\drawable\\bttn_border.xml"
+    },
+    {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -72,24 +76,24 @@
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -124,32 +128,32 @@
         "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
         "merged": "D:\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\51bb8557c966388fe2b11a37b37c168b54eb1d15\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\Chandler\\.android\\build-cache\\2067c213c8b854dc063fe7106d95614f49493fbf\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jessy_arroyo\\Desktop\\CS399Work\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\jessy_arroyo\\.android\\build-cache\\c5ac760d71e377428f14ba37fce07c81179d093b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
