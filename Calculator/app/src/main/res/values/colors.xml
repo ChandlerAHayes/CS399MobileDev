@@ -6,4 +6,5 @@
     <color name="colorAccent">#f06292</color>
 
     <color name="ButtonColor">#35373a</color>
+    <color name="BttnTextColor">#878787</color>
 </resources>

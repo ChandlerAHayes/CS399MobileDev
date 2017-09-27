@@ -12,8 +12,8 @@
 
     <!--https://stackoverflow.com/questions/26346727/android-material-design-button-styles-->
     <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
-        <item name="android:background">@drawable/bttn_selector</item>
-        <item name="android:textColor">?android:attr/textColorSecondaryInverseNoDisable</item>
+        <item name="android:background">@drawable/btt_color</item>
+        <item name="android:textColor">@drawable/btt_textcolor</item>
         <item name="android:layout_margin">10dp</item>
     </style>
 

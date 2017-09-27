@@ -98,6 +98,7 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <color name="BttnTextColor">#878787</color>
     <color name="ButtonColor">#35373a</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -1467,8 +1468,8 @@
         <item name="android:scaleType">center</item>
     </style>
     <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
-        <item name="android:background">@color/ButtonColor</item>
-        <item name="android:textColor">?android:attr/textColorSecondaryInverseNoDisable</item>
+        <item name="android:background">@drawable/btt_color</item>
+        <item name="android:textColor">@drawable/btt_textcolor</item>
         <item name="android:layout_margin">10dp</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
