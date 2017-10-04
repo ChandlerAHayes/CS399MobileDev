@@ -10,13 +10,14 @@
 
     <TextView
         android:id="@+id/str_input_display"
-
         android:layout_width="match_parent"
         android:layout_height="100dp"
+
         android:background="@android:color/background_light"
-        android:text="2"
+        android:textSize="45sp"
+        
         android:textAlignment="textEnd"
-        android:textSize="45sp" />
+        android:layout_gravity="end"/>
 
     <TextView
         android:id="@+id/str_output_display"
@@ -24,9 +25,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:layout_weight="0.76"
+
         android:background="@android:color/background_light"
+        android:textSize="45sp"
+
         android:textAlignment="textEnd"
-        android:textSize="45sp" />
+        android:layout_gravity="end"/>
 
     <GridLayout
         android:layout_width="wrap_content"

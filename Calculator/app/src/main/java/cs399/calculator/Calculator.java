@@ -10,6 +10,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class Calculator extends AppCompatActivity {
+    public boolean decimalIsUsed = false;
+
+    //Used arraylist so that multiple equations could be applied
     ArrayList<Double> inputNumberList = new ArrayList<Double>();
     ArrayList<String> operationsList = new ArrayList<String>();
     String currentValue = "";
@@ -138,7 +141,12 @@ public class Calculator extends AppCompatActivity {
         buttonPoint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                inputText.setText(inputText.getText() + ".");
+                if(!decimalIsUsed)
+                {
+                    inputText.setText(inputText.getText() + ".");
+                    currentValue += ".";
+                }
+
 
             }
         });
@@ -206,6 +214,23 @@ public class Calculator extends AppCompatActivity {
 
                     inputText.setText(inputText.getText() + "*");
                 }
+                if(currentValue.equals("")){;}
+            }
+        });
+
+        buttonDivide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(!currentValue.equals("")) {
+                    //add current number to list of numbers
+                    inputNumberList.add(Double.parseDouble(currentValue));
+                    currentValue = "";
+
+                    //add + to list of operations
+                    operationsList.add("/");
+
+                    inputText.setText(inputText.getText() + "/");
+                }
             }
         });
 
@@ -235,6 +260,17 @@ public class Calculator extends AppCompatActivity {
                             break;
 
                         case "/":
+                            if(valueTwo.equals(0.0))
+                            {
+                                inputNumberList.clear();
+                                operationsList.clear();
+                                inputText.setText("");
+                                outputText.setText("");
+                                currentValue = "";
+                                decimalIsUsed = false;
+                                inputText.setText("Cannot Divide by zero");
+                                return;
+                            }
                             result /= valueTwo;
                             break;
                     }
@@ -261,6 +297,7 @@ public class Calculator extends AppCompatActivity {
                 inputText.setText("");
                 outputText.setText("");
                 currentValue = "";
+                decimalIsUsed = false;
             }
         });
     }
@@ -270,6 +307,11 @@ public class Calculator extends AppCompatActivity {
         String numString = String.valueOf(num);
         currentValue += numString;
     }
+    public void clearAll()
+    {
+
+    }
+
 
 
 

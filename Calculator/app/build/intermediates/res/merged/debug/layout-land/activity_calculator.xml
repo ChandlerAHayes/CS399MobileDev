@@ -15,24 +15,29 @@
 
         <TextView
             android:id="@+id/str_input_display"
-
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="30dp"
+
+            android:textSize="25sp"
             android:background="@android:color/background_light"
-            android:text="2"
+
+            android:layout_weight="1"
             android:textAlignment="textEnd"
-            android:textSize="25sp" />
+            android:layout_gravity="end"/>
 
         <TextView
             android:id="@+id/str_output_display"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+
+            android:background="@android:color/background_light"
+            android:textSize="25sp"
+
             android:layout_marginTop="0dp"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
             android:textAlignment="textEnd"
-            android:textSize="25sp" />
+            android:layout_gravity="end"/>
+
     </LinearLayout>
 
     <GridLayout
