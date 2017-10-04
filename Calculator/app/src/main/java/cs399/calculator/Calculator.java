@@ -7,8 +7,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class Calculator extends AppCompatActivity {
-    float valueOne, valueTwo;
+    ArrayList<Double> inputNumberList = new ArrayList<Double>();
+    ArrayList<String> operationsList = new ArrayList<String>();
+    String currentValue = "";
+
 
     //All the buttons for the app
     Button button0, button1, button2, button3, button4, button5, button6,
@@ -17,6 +22,7 @@ public class Calculator extends AppCompatActivity {
 
     EditText text1;
     TextView inputText, outputText;
+    String history; //saves the user input so that values can be cleared.
     boolean isAddition, isSubtract, isDivision, isMultiply;
 
     @Override
@@ -53,6 +59,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "0");
+                addNumToCurrentVal(0);
             }
         });
 
@@ -60,6 +67,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "1");
+                addNumToCurrentVal(1);
             }
         });
 
@@ -67,6 +75,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "2");
+                addNumToCurrentVal(2);
             }
         });
 
@@ -74,6 +83,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "3");
+                addNumToCurrentVal(3);
             }
         });
 
@@ -81,6 +91,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "4");
+                addNumToCurrentVal(4);
             }
         });
 
@@ -88,6 +99,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "5");
+                addNumToCurrentVal(5);
             }
         });
 
@@ -95,6 +107,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "6");
+                addNumToCurrentVal(6);
             }
         });
 
@@ -102,6 +115,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "7");
+                addNumToCurrentVal(7);
             }
         });
 
@@ -109,6 +123,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "8");
+                addNumToCurrentVal(8);
             }
         });
 
@@ -116,6 +131,7 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + "9");
+                addNumToCurrentVal(9);
             }
         });
 
@@ -123,19 +139,138 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputText.setText(inputText.getText() + ".");
+
             }
         });
 
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                valueOne = Float.parseFloat();
-                inputText.setText(inputText.getText()+ "+");
-                isAddition = true;
-                //inputText.setText("+");
+                //make sure there's at least one value
+                if (inputNumberList.isEmpty()) {
+                    inputText.setText("There is no value to add");
+                }
+                //There's a value for the first number but no value for the second number yet
+                else {
+                    inputText.setText(inputText.getText() + " + ");
+                }
             }
         });
 
+        buttonAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(!currentValue.equals(""))
+                {
+                    //add current number to list of numbers
+                    inputNumberList.add(Double.parseDouble(currentValue));
+                    currentValue = "";
 
+                    //add + to list of operations
+                    operationsList.add("+");
+                    inputText.setText(inputText.getText() + "+");
+
+
+                }
+            }
+        });
+
+        buttonSubtract.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(!currentValue.equals(""))
+                {
+                    //add current number to list of numbers
+                    inputNumberList.add(Double.parseDouble(currentValue));
+                    currentValue = "";
+
+                    //add + to list of operations
+                    operationsList.add("-");
+
+                    inputText.setText(inputText.getText() + "-");
+                }
+            }
+        });
+
+        buttonMult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(!currentValue.equals(""))
+                {
+                    //add current number to list of numbers
+                    inputNumberList.add(Double.parseDouble(currentValue));
+                    currentValue = "";
+
+                    //add + to list of operations
+                    operationsList.add("*");
+
+                    inputText.setText(inputText.getText() + "*");
+                }
+            }
+        });
+
+        buttonEqual.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //add last value to inputNumberList
+                inputNumberList.add(Double.parseDouble(currentValue));
+                currentValue = "";
+
+                Double result = inputNumberList.get(0);
+                int numIndex = 0;
+                for(int opIndex=0; opIndex < operationsList.size(); opIndex++)
+                {
+                    Double valueTwo = inputNumberList.get(opIndex+1);
+                    switch(operationsList.get(opIndex)){
+                        case "+":
+                            result += valueTwo;
+                            break;
+
+                        case "-":
+                            result -= valueTwo;
+                            break;
+
+                        case"*":
+                            result *= valueTwo;
+                            break;
+
+                        case "/":
+                            result /= valueTwo;
+                            break;
+                    }
+
+                    numIndex++;
+                }
+
+                //display results
+                outputText.setText("= " + result);
+
+                //remove all the numbers and operations that have been used
+                inputNumberList.clear();
+                inputNumberList.add(result);
+                operationsList.clear();
+
+            }
+        });
+
+        buttonClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                inputNumberList.clear();
+                operationsList.clear();
+                inputText.setText("");
+                outputText.setText("");
+                currentValue = "";
+            }
+        });
     }
+
+    //adds the next digit to the current value being typed in
+    public void addNumToCurrentVal(int num){
+        String numString = String.valueOf(num);
+        currentValue += numString;
+    }
+
+
+
 }
