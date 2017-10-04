@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Chandler\\.android\\build-cache\\7e69f16e901eab82a8083999265f254306e35413\\output\\res\\values\\values.xml",
+                    "file": "/Users/jessy_arroyo/.android/build-cache/7da5956d0e4e0ee884f37cebb2493ede7985d39c/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/C:\\Users\\Chandler\\Documents\\School\\Year5\\Fall\\Android_Development\\CS399MobileDev\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/C:\\Users\\Chandler\\.android\\build-cache\\7e69f16e901eab82a8083999265f254306e35413\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

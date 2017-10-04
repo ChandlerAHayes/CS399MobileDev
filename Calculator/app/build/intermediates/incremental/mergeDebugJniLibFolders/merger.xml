@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Chandler\Documents\School\Year5\Fall\Android_Development\CS399MobileDev\Calculator\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/jessy_arroyo/Desktop/CS399Work/CS399MobileDev/Calculator/app/src/debug/jniLibs"/></dataSet></merger>
