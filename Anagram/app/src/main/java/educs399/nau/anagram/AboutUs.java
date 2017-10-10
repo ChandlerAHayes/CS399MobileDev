@@ -2,6 +2,7 @@ package educs399.nau.anagram;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class AboutUs extends AppCompatActivity {
 

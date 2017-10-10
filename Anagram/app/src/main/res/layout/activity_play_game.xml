@@ -11,6 +11,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play Game"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/easyLevel_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/mediumLevel_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/hardLevel_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="289dp" />
 </android.support.constraint.ConstraintLayout>

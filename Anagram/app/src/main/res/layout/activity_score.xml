@@ -11,6 +11,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Score"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="246dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/homePage_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="170dp" />
 </android.support.constraint.ConstraintLayout>

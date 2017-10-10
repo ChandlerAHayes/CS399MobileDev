@@ -11,6 +11,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About Us"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="208dp" />
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/homePage_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="192dp" />
 </android.support.constraint.ConstraintLayout>
