@@ -7,41 +7,56 @@
     tools:context="educs399.nau.anagram.MainActivity">
 
     <RelativeLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="-19dp">
+        android:layout_width="0dp"
+        android:layout_height="0dp"
 
-        <EditText
-            android:id="@+id/editText"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:id="@+id/game_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Homepage"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="34dp" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="ANAGRAM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/playGame_bttn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/editText"
-            android:layout_alignRight="@+id/editText"
-            android:layout_below="@+id/editText"
-            android:layout_marginTop="77dp"
-            android:text="Play Game" />
+            android:text="Play Game"
+            android:textColor="@color/colorPrimary"
+
+            android:layout_below="@+id/game_title"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginTop="77dp" />
 
         <Button
             android:id="@+id/aboutUs_bttn"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="47dp"
+            android:layout_width="wrap_content"
             android:text="About Us"
-            android:layout_below="@+id/playGame_bttn"
+            android:textColor="@color/colorPrimary"
+
             android:layout_alignLeft="@+id/playGame_bttn"
-            android:layout_alignStart="@+id/playGame_bttn" />
+            android:layout_alignStart="@+id/playGame_bttn"
+            android:layout_below="@+id/playGame_bttn"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="47dp"/>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

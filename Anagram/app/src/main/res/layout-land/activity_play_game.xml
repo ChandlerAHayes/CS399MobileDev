@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="educs399.nau.anagram.PlayGame">
-
-    <RelativeLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
 
         <TextView
             android:id="@+id/textView3"
@@ -19,9 +13,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:text="Select a level"
-            android:textSize="30sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/easyLevel_bttn"
@@ -31,9 +23,7 @@
             android:layout_above="@+id/mediumLevel_bttn"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Easy"
-            tools:layout_editor_absoluteX="134dp"
-            tools:layout_editor_absoluteY="109dp" />
+            android:text="Easy" />
 
         <Button
             android:id="@+id/mediumLevel_bttn"
@@ -41,22 +31,16 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Medium"
-            tools:layout_editor_absoluteX="134dp"
-            tools:layout_editor_absoluteY="196dp" />
+            android:text="Medium"/>
 
         <Button
             android:id="@+id/hardLevel_bttn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_below="@+id/mediumLevel_bttn"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
             android:text="Hard"
-            tools:layout_editor_absoluteX="134dp"
-            tools:layout_editor_absoluteY="289dp" />
+            android:layout_below="@+id/mediumLevel_bttn"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
 
     </RelativeLayout>
-
-</android.support.constraint.ConstraintLayout>
