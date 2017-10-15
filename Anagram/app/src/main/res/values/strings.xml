@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">Anagram</string>
+
+    <!--Easy questions-->
+    <string name="easy_quest1">cork</string>
+    <string name="easy_quest2">diet</string>
+    <string name="easy_quest3">dear</string>
+    <string name="easy_quest4">fowl</string>
+    <string name="easy_quest5">pots</string>
+
+    <!--Easy question answers-->
+    <string name="easy_ans1">rock</string>
+    <string name="easy_ans2a">edit</string>
+    <string name="easy_ans2b">tide</string>
+    <string name="easy_ans3a">dare</string>
+    <string name="easy_ans3b">read</string>
+    <string name="easy_ans4a">flow</string>
+    <string name="easy_ans4b">wolf</string>
+    <string name="easy_ans5a">post</string>
+    <string name="easy_ans5b">spot</string>
+    <string name="easy_ans5c">stop</string>
+    <string name="easy_ans5d">tops</string>
+
+    <!--Medium questions-->
+    <string name="medium_quest1">reserve</string>
+    <string name="medium_quest2">unbred</string>
+    <string name="medium_quest3">viewer</string>
+    <string name="medium_quest4">nameless</string>
+    <string name="medium_quest5">lessened</string>
+
+    <!--Medium question answers-->
+    <string name="medium_ans1">reverse</string>
+    <string name="medium_ans2a">burden</string>
+    <string name="medium_ans2b">burned</string>
+    <string name="medium_ans3">review</string>
+    <string name="medium_ans4">salesman</string>
+    <string name="medium_ans5">needless</string>
+
+    <!--Hard questions-->
+    <string name="hard_quest1">debit card</string>
+    <string name="hard_quest2">dormitory</string>
+    <string name="hard_quest3">hot water</string>
+    <string name="hard_quest4">a gentleman</string>
+    <string name="hard_quest5">school master</string>
+
+    <!--Hard question answers-->
+    <string name="hard_ans1">bad credit</string>
+    <string name="hard_ans2">dirty room</string>
+    <string name="hard_ans3">worth tea</string>
+    <string name="hard_ans4">elegant man</string>
+    <string name="hard_ans5">the classroom</string>
+
 </resources>
