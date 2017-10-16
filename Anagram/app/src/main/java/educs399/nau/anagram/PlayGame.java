@@ -14,11 +14,15 @@ public class PlayGame extends AppCompatActivity {
     private Button nextButton;
     private TextView txtAnagram;
     private EditText txtAnswer;
+    private TextView txtScore;
+    private TextView txtQuestions;
+
 
     //Other Variables
     private int numOfCorrect;   //number of answers correct out of five
     private String level;
     private int index = 0;  //index of current question
+    private int numOfTotalQuestions = 5; //this is the total amount of questions in the game
 
     //set of anagrams
     private Anagram[] anagramSet;
@@ -88,6 +92,12 @@ public class PlayGame extends AppCompatActivity {
 //        String anagramStr = ;
         txtAnagram.setText(anagram);
 
+        txtQuestions = (TextView) findViewById(R.id.txt_numQuestions);
+        txtQuestions.setText((Integer.toString(index + 1)) + " out of " + numOfTotalQuestions);
+
+        txtScore = (TextView) findViewById(R.id.txt_score);
+        txtScore.setText("Score: " + numOfCorrect);
+
         //This button will either allow the user to go to the next question or go to the score page
         //it's the last question.
         nextButton = (Button)findViewById(R.id.score_bttn);
@@ -98,6 +108,7 @@ public class PlayGame extends AppCompatActivity {
                 if(checkAnswer())
                 {
                     numOfCorrect++;
+                    txtScore.setText("Score: " + numOfCorrect);
                 }
                 //go to the next anagram
                 if(index < anagramSet.length-1)
@@ -122,8 +133,10 @@ public class PlayGame extends AppCompatActivity {
             txtAnagram.setText("End of Array");
         }
         else {
-        int anagram = anagramSet[index].getTextResId();
-        txtAnagram.setText(anagram);}
+            int anagram = anagramSet[index].getTextResId();
+            txtAnagram.setText(anagram);
+            txtQuestions.setText((Integer.toString(index + 1)) + " out of " + numOfTotalQuestions);
+        }
         txtAnswer.setText("");
     }
 
