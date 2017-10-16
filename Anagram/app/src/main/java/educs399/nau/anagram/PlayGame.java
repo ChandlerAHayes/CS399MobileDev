@@ -20,12 +20,16 @@ public class PlayGame extends AppCompatActivity {
     private String level;
     private int index = 0;  //index of current question
 
-    //set of questions & answers
+    //set of anagrams
     private Anagram[] anagramSet;
 
-    //constants
+    //constants for transferring constants from one activity to another
     private static final String EXTRA_LEVEL = "level";
     private static final int REQUEST_CODE_SCORE = 1;
+    //constants for saving data between screen rotations
+    private static final String KEY_INDEX = "index";
+    private static final String KEY_NUM_OF_CORRECT = "numOfCorrect";
+    private static final String KEY_LEVEL = "level";
 
 
 
@@ -34,20 +38,31 @@ public class PlayGame extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_game);
 
+        if(savedInstanceState != null)
+        {
+            index = savedInstanceState.getInt(KEY_INDEX);
+            numOfCorrect = savedInstanceState.getInt(KEY_NUM_OF_CORRECT);
+            level = savedInstanceState.getString(KEY_LEVEL);
+        }
+
+        //initializing the answer box
         txtAnswer = (EditText)findViewById(R.id.txt_answer);
+
 
         //finding out what level the user picked
         level = getIntent().getStringExtra(EXTRA_LEVEL);
 
         //now create the question set & answer set depending on level selected
-        //question set
-        if("easy".equals(level))
-        anagramSet = new Anagram[]{
-                new Anagram(R.string.easy_quest1, new String[] {"rock"}),
-                new Anagram(R.string.easy_quest2, new String[]{"edit", "tide"}),
-                new Anagram(R.string.easy_quest3, new String[]{"dare", "read"}),
-                new Anagram(R.string.easy_quest4, new String[]{"flow", "wolf"}),
-                new Anagram(R.string.easy_quest5, new String[]{"post", "spot", "stop", "tops"})};
+        //question set is easy
+        if("easy".equals(level)) {
+            anagramSet = new Anagram[]{
+                    new Anagram(R.string.easy_quest1, new String[] {"rock"}),
+                    new Anagram(R.string.easy_quest2, new String[]{"edit", "tide"}),
+                    new Anagram(R.string.easy_quest3, new String[]{"dare", "read"}),
+                    new Anagram(R.string.easy_quest4, new String[]{"flow", "wolf"}),
+                    new Anagram(R.string.easy_quest5, new String[]{"post", "spot", "stop", "tops"})};
+        }
+        //question set is hard
         else if("medium".equals(level)) {
             anagramSet = new Anagram[]{
                     new Anagram(R.string.medium_quest1, new String[]{"reverse"}),
@@ -56,7 +71,7 @@ public class PlayGame extends AppCompatActivity {
                     new Anagram(R.string.medium_quest4, new String[]{"salesman"}),
                     new Anagram(R.string.medium_quest5, new String[]{"needless"})};
         }
-        //level is hard
+        //question set is hard
         else
         {
             anagramSet = new Anagram[]{
@@ -70,22 +85,24 @@ public class PlayGame extends AppCompatActivity {
         //initializing the first question
         txtAnagram = (TextView) findViewById(R.id.txt_anagram);
         int anagram = anagramSet[index].getTextResId();
+//        String anagramStr = ;
         txtAnagram.setText(anagram);
 
-
-
+        //This button will either allow the user to go to the next question or go to the score page
+        //it's the last question.
         nextButton = (Button)findViewById(R.id.score_bttn);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //check if answer is correct
+                if(checkAnswer())
+                {
+                    numOfCorrect++;
+                }
                 //go to the next anagram
                 if(index < anagramSet.length-1)
                 {
-                    if(checkAnswer())
-                    {
-                        numOfCorrect++;
-                        numOfCorrect = numOfCorrect + 1 - 1;
-                    }
+
                     updateAnagram();
                 }
                 //if it's the last question, go to the score activity
@@ -100,8 +117,14 @@ public class PlayGame extends AppCompatActivity {
     //update the question to the next question
     public void updateAnagram(){
         index++;
+        if(index >= anagramSet.length)
+        {
+            txtAnagram.setText("End of Array");
+        }
+        else {
         int anagram = anagramSet[index].getTextResId();
-        txtAnagram.setText(anagram);
+        txtAnagram.setText(anagram);}
+        txtAnswer.setText("");
     }
 
     //checks if the answer is correct
@@ -117,8 +140,6 @@ public class PlayGame extends AppCompatActivity {
         int answerSetLength = answers.length;
         for(int i=0; i<answerSetLength; i++)
         {
-            Boolean xxx = userAnswer.equals(answers[i]);
-            i = i + 1 - 1;
             if(userAnswer.equals(answers[i]))
             {
                 isAnswerCorrect = true;
@@ -134,4 +155,16 @@ public class PlayGame extends AppCompatActivity {
         intent.putExtra(EXTRA_LEVEL, level);
         return intent;
     }
+
+    //saves data if the screen is rotated
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+
+        //saving data
+        savedInstanceState.putInt(KEY_INDEX, index);
+        savedInstanceState.putInt(KEY_NUM_OF_CORRECT, numOfCorrect);
+        savedInstanceState.putString(KEY_LEVEL, level);
+    }
+
 }

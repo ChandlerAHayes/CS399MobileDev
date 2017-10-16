@@ -24,36 +24,42 @@
             android:id="@+id/txt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="Start Game"
-            android:textSize="50sp"
-
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            />
+            android:layout_marginTop="30dp"
+
+            android:text="Play Game"
+            android:textSize="50sp" />
 
         <TextView
             android:id="@+id/txt_anagram"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_title"
-            android:text="LEMON"
-            android:textColor="@android:color/black"
-            android:textSize="30sp"
+            android:textAllCaps="true"
 
+            android:layout_below="@+id/txt_title"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="false"
             android:layout_marginTop="60dp"
-            />
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/txt_answer"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:textColor="@android:color/black"
+            android:textColor="@color/colorPrimary"
             android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_ans_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_answer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
 
         <Button
             android:id="@+id/score_bttn"
