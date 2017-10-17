@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class PlayGame extends AppCompatActivity {
     //Initializing widgets from the xml layout
     private Button nextButton;
+    private Button quitButton;
     private TextView txtAnagram;
     private EditText txtAnswer;
     private TextView txtScore;
@@ -97,6 +98,15 @@ public class PlayGame extends AppCompatActivity {
 
         txtScore = (TextView) findViewById(R.id.txt_score);
         txtScore.setText("Score: " + numOfCorrect);
+
+        quitButton = (Button) findViewById(R.id.quit_bttn);
+        quitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PlayGame.this, MainActivity.class));
+            }
+        });
+
 
         //This button will either allow the user to go to the next question or go to the score page
         //it's the last question.
