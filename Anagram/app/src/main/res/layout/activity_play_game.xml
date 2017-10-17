@@ -55,12 +55,13 @@
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/txt_ans_result"
+            android:id="@+id/txt_timer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt_answer"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart" />
 
         <Button
             android:id="@+id/score_bttn"
@@ -68,7 +69,7 @@
             android:layout_height="wrap_content"
             android:text="Next"
 
-            android:layout_below="@+id/txt_ans_result"
+            android:layout_below="@+id/txt_timer"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp" />
 

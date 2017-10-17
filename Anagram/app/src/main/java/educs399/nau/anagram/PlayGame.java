@@ -3,6 +3,7 @@ package educs399.nau.anagram;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +18,7 @@ public class PlayGame extends AppCompatActivity {
     private EditText txtAnswer;
     private TextView txtScore;
     private TextView txtQuestions;
+    private TextView txtTimer;
 
 
     //Other Variables
@@ -49,6 +51,43 @@ public class PlayGame extends AppCompatActivity {
             numOfCorrect = savedInstanceState.getInt(KEY_NUM_OF_CORRECT);
             level = savedInstanceState.getString(KEY_LEVEL);
         }
+
+        txtTimer = (TextView)findViewById(R.id.txt_timer);
+        new CountDownTimer(30*1000, 1000){
+            public void onTick(long millisUntilFinished)
+            {
+                if(millisUntilFinished/1000 > 9)
+                {
+                    txtTimer.setText(String.valueOf("00:" + millisUntilFinished/1000));
+                }
+                else
+                {
+                    txtTimer.setText(String.valueOf("00:0" + millisUntilFinished/1000));
+                }
+            }
+            public void onFinish()
+            {
+                //check if answer is correct
+                if(checkAnswer())
+                {
+                    numOfCorrect++;
+                    txtScore.setText("Score: " + numOfCorrect);
+                }
+                //go to the next anagram
+                if(index < anagramSet.length-1)
+                {
+
+                    updateAnagram();
+                    start();
+                }
+                //if it's the last question, go to the score activity
+                else {
+                    Intent intent = Score.newIntent(PlayGame.this, numOfCorrect);
+                    startActivityForResult(intent, REQUEST_CODE_SCORE);
+                }
+            }
+        }.start();
+
 
         //initializing the answer box
         txtAnswer = (EditText)findViewById(R.id.txt_answer);
