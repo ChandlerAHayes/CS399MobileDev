@@ -53,7 +53,7 @@ public class PlayGame extends AppCompatActivity {
         }
 
         txtTimer = (TextView)findViewById(R.id.txt_timer);
-        new CountDownTimer(30*1000, 1000){
+        final CountDownTimer anagramTimer= new CountDownTimer(30*1000, 1000){
             public void onTick(long millisUntilFinished)
             {
                 if(millisUntilFinished/1000 > 9)
@@ -162,13 +162,17 @@ public class PlayGame extends AppCompatActivity {
                 //go to the next anagram
                 if(index < anagramSet.length-1)
                 {
-
                     updateAnagram();
+                    anagramTimer.cancel();
+                    anagramTimer.start();
                 }
                 //if it's the last question, go to the score activity
                 else {
+                    anagramTimer.cancel();
+                    anagramTimer.start();
                     Intent intent = Score.newIntent(PlayGame.this, numOfCorrect);
                     startActivityForResult(intent, REQUEST_CODE_SCORE);
+                    anagramTimer.cancel();
                 }
             }
         });
